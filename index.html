@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yandex.Money Test</title>
+        <style>
+            input.error {
+                border: 1px solid red;
+            }
+        </style>
+        <script type='text/javascript' src='jquery-3.2.1.min.js'></script>
+        <script type='text/javascript' src='index.js'></script>
+    </head>
+    <body>
+        <form action='success.json' id='myForm'>
+            <input type='text' placeholder='ФИО' name='fio'>
+            <input type='text' placeholder='Email' name='email'>
+            <input type='text' placeholder='Телефон' name='phone'>
+            <input type='submit' id='submitButton'>
+        </form>
+        <div id='resultContainer'></div>
+    </body>
+</html>
